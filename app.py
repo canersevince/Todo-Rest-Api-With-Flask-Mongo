@@ -35,7 +35,7 @@ def post():
 
 @app.route('/add_todo', methods=['POST'])
 def update():
-    ## expected data = user, newTodo
+    ## expected data = user
     parsed = json.loads(request.data)
     user = parsed['user']
     add = mongo('add_todo', user)
