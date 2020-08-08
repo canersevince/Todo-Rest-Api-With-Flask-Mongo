@@ -15,8 +15,10 @@ _/add_todo
 expected data = 
 user: { name : "...", email: "..@..com", todos : [... updated todos] }
 
+# example .env file
+MONGO="mongodb+srv://...."
+API_SECRET_KEY="...."
 
 run:
-
 python app.py
 
