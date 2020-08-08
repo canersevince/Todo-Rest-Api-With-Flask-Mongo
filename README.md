@@ -15,3 +15,8 @@ _/add_todo
 expected data = 
 user: { name : "...", email: "..@..com", todos : [... updated todos] }
 
+
+run:
+
+python app.py
+
